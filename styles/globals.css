@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #151622 !important;
+  z-index: -999;
+}
+.bgimg {
+  z-index: -998;
+}
+
+/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+/* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+
+/* .header_wrapper {
+  display: flex;
+} */
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.navigation img {
+  padding-left: 8%;
+  width: 170px;
+}
+.navbar-right {
+  float: right;
+  padding-right: 5%;
+  font-size: 11px;
+}
+a.navbar_anchor {
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  font-family: EuroTech;
+  font-weight: bold;
+}
+
+.negative-margin {
+  margin-top: -7px;
+}
+
+.gradient-text-color {
+  background-color: #f3ec78;
+  background-image: linear-gradient(180deg, #f3ec78, #af4261);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar_anchor:hover {
+  color: #c768c1;
+  border-bottom: 1.5px;
+  border-style: none none solid none;
+  border-image: linear-gradient(to right, #c768c1, white) 100% 1;
+}
+.navbar-logo {
+  padding-left: 5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+.navbar-logo span {
+  font-weight: 100 !important;
+}
+
+.video-container {
+  z-index: -100;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* position: absolute; */
+}
+.nav_button {
+  border: none;
+  background: transparent;
+  font-weight: 900;
+  background: -webkit-linear-gradient(#791f94, #8b613e);
+  /* tex: linear-gradient(to right, #791f94, #8b613e); */
+}
+
+#video-bg {
+  width: 100%;
+  min-height: 100%;
+}
+
+@font-face {
+  font-family: "EuroTech";
+  src: url("../public/Font/euro_technic_extended_regular.ttf");
+  font-style: normal;
+}
